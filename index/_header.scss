@@ -1,0 +1,118 @@
+.header {
+    height: 100px;
+    background-color: #FFFFFF;
+    border: 1px solid #ececec;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    &__left,
+    &__right {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+
+        display: flex;
+        align-items: center;
+        font-size: 27px;
+        font-weight: 300;
+        transition: all 1s;
+
+    }
+
+    &__brand {
+        margin-left: 13px;
+        font-size: 27px;
+        font-weight: 300;
+        color: #222222;
+        text-align: center;
+        letter-spacing: 0.03em;
+        line-height: 32px;
+        text-transform: uppercase;
+    }
+
+    .span__d {
+        color: $color;
+        font-weight: 900;
+    }
+
+    &__search {
+        display: flex;
+        margin-left: 35px;
+    }
+
+    &__browse {
+        display: flex;
+        height: 38px;
+        width: 87px;
+        background-color: #F6F6F6;
+        align-items: center;
+        color: rgba(34, 34, 34, 1);
+        border: 1px solid rgba(230, 230, 230, 1);
+        border-radius: 0px 3px 3px 0px;
+        justify-content: space-between;
+    }
+
+    .browse {
+        &__p {
+            font-family: 'Lato';
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 0.03em;
+            margin-left: 11px;
+        }
+
+        &__arrow {
+            margin-left: 8px;
+        }
+    }
+
+    &__input {
+        height: 38px;
+        width: 317px;
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(230, 230, 230, 1);
+        border-radius: 0px 3px 3px 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__button {
+        height: 38px;
+        width: 38px;
+        background-color: white;
+        border: 1px solid rgba(230, 230, 230, 1);
+        border-radius: 0px 3px 3px 0px;
+        margin-left: -4px;
+
+        &:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+    }
+    &__account{
+        height: 38px;
+    width: 130px;
+    background-color: $color;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 9px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-left: 26px;
+    &:hover{
+        transform: scale(1.03);
+    }
+    }
+   
+
+}
