@@ -1,0 +1,70 @@
+.feature {
+    &__box {
+        height: 530px;
+        display: flex;
+        margin-bottom: 100px;
+    }
+
+    &__left {
+        position: relative;
+        height: 530px;
+        width: 767px;
+        background: url(/img/index/feature/darkening.png), url(/img/index/feature/backgraund.png);
+        background-repeat: no-repeat;
+    }
+
+    &__content {
+        position: absolute;
+        top: 140px;
+        left: 40px;
+    }
+
+    &__offer {
+        font-size: 54px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+        letter-spacing: 0.03em;
+    }
+
+    &__color {
+        color: $color;
+    }
+
+    &__for {
+        font-size: 32px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+        letter-spacing: 0.03em;
+    }
+
+    &__right {
+        background-color: #222224;
+        width: 373px;
+        height: 529px;
+    }
+
+    &__element {
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__h3 {
+        font-size: 20px;
+        font-weight: 900;
+        color: #fbfbfb;
+        letter-spacing: 0.03em;
+        margin-bottom: 17px;
+    }
+
+    &__p {
+        width: 236px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #fbfbfb;
+        letter-spacing: 0.03em;
+        line-height: 24px;
+        overflow: hidden;
+
+    }
+}

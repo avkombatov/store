@@ -1,0 +1,88 @@
+.categories {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    &__men {
+        position: relative;
+        background-image: url(/img/index/categories/men.png);
+        width: 560px;
+        height: 542px;
+        display: block;
+    }
+
+    &__border {
+        transition: 0.2s;
+
+        &:hover {
+            outline: 1px solid #8D8AA0;
+            transform: scale(1.01);
+        }
+    }
+
+    &__accesories {
+        display: block;
+        margin-top: 20px;
+        background-image: url(/img/index/categories/accesories.png);
+        width: 560px;
+        height: 261px;
+    }
+
+    &__women {
+        display: block;
+        background-image: url(/img/index/categories/women.png);
+        width: 560px;
+        height: 261px;
+    }
+    &__kids{
+        background-image: url(/img/index/categories/kids.png);
+        margin-top: 20px;
+        width: 560px;
+        height: 542px;
+        display: block;
+    }
+
+    .content__category {
+        position: absolute;
+        background-color: white;
+        padding-top: 15px;
+        padding-left: 19px;
+        margin-top: 30px;
+    }
+
+    .content {
+        &__men {
+            height: 85px;
+            width: 175px;
+        }
+
+        &__accesories {
+            height: 85px;
+            width: 225px;
+        }
+
+        &__women {
+            width: 164px;
+            height: 85px;
+        }
+    }
+
+    .p__top {
+        font-family: 'Lato';
+        font-size: 18px;
+        font-weight: 900;
+        color: #222222;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    .p__bottom {
+        font-family: 'Lato';
+        font-size: 30px;
+        font-weight: 900;
+        color: #f16d7f;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+}
