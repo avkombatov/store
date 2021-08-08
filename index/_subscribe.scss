@@ -1,0 +1,121 @@
+.subscribe {
+    height: 440px;
+    background: url(/img/index/subscribe/effect.png), url(/img/index/subscribe/background.png);
+    display: flex;
+    justify-content: space-between;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    &__left {
+        padding-top: 111px;
+        display: flex;
+    }
+
+    &__description {
+        overflow: hidden;
+        padding-left: 27px;
+    }
+
+    &__text {
+        width: 426px;
+        font-size: 16px;
+        font-style: italic;
+        color: #222224;
+        letter-spacing: 0.03em;
+        line-height: 26px;
+    }
+
+    &__name {
+        font-size: 16px;
+        font-weight: bold;
+        color: $color;
+        letter-spacing: 0.03em;
+        line-height: 26px;
+        margin-top: 12px;
+    }
+
+    &__city {
+        font-size: 12px;
+        font-weight: 300;
+        color: #222224;
+        letter-spacing: 0.03em;
+        line-height: 14px;
+        padding-bottom: 41px;
+    }
+
+    &__dash {
+        height: 4px;
+        width: 38px;
+        background-color: #D7D7D7;
+        display: inline-block;
+        margin-right: 13px;
+
+        &_active {
+            background-color: $color;
+        }
+
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+
+    &__right {
+        padding-top: 148px;
+    }
+
+    &__h3 {
+        font-size: 24px;
+        color: #222224;
+        text-align: center;
+        letter-spacing: 0.03em;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    &__p {
+        font-size: 14px;
+        font-weight: 600;
+        color: #222224;
+        text-align: center;
+        letter-spacing: 0.03em;
+        padding-bottom: 35px;
+    }
+
+    &__form {
+        display: flex;
+    }
+
+    &__input {
+        height: 46px;
+        width: 280px;
+        background-color: #e1e1e1;
+        border-radius: 23px 0 0 23px;
+        border: none;
+        padding-left: 28px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__button {
+        height: 46px;
+        width: 90px;
+        border-radius: 0 23px 23px 0;
+        background-color: $color;
+        font-family: 'Lato';
+        font-size: 14px;
+        color: #ffffff;
+        cursor: pointer;
+        letter-spacing: 0.03em;
+        font-family: 'Lato';
+        letter-spacing: 0.03em;
+        outline: none;
+        border: none;
+
+        &:hover {
+            transform: scale(1.02);
+            color: #E9E9E9;
+        }
+    }
+}
