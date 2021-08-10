@@ -1,0 +1,36 @@
+.arrivals {
+    height: 145px;
+    padding-top: 65px;
+    background-color: #f8f3f4;
+    display: flex;
+    justify-content: space-between;
+
+    &__h3 {
+        font-size: 24px;
+        font-weight: 900;
+        color: #f16d7f;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    &__men,
+    &__home,
+    &__new {
+        font-size: 14px;
+        font-weight: 300;
+        color: #636363;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    &__active {
+        font-size: 14px;
+        font-weight: 900;
+        color: #f16d7f;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+
+}
+

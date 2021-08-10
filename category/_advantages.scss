@@ -1,0 +1,20 @@
+.advantages{
+ 
+    .feature__right_width{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;  height: 340px;
+    }
+    .feature__element_display{
+        display: block;
+        text-align: center;
+        margin-top: 85px;
+    }
+    .feature__img__margin{
+        margin-bottom: 33px;
+   
+    }
+    .feature__p_width{
+        width: 325px;
+    }
+}
