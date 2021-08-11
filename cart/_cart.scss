@@ -1,0 +1,277 @@
+.cart {
+    padding-top: 90px;
+
+    &__columns {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #F1F1F1;
+    }
+
+    &__h3 {
+        font-size: 13px;
+        font-weight: 900;
+        color: #222222;
+        letter-spacing: -0.01em;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+
+        &:not(:last-child) {
+            margin-right: 95px;
+        }
+
+        &_contacts {
+            font-size: 16px;
+            font-weight: bold;
+            color: #222222;
+            text-transform: uppercase;
+            margin-bottom: 22px;
+        }
+    }
+
+    .columns__right {
+        display: flex;
+    }
+
+    &__img {
+        display: flex;
+        padding-top: 25px;
+        // border-bottom: 1px solid #F1F1F1;
+        padding-bottom: 25px;
+        margin-right: 193px;
+    }
+
+    &__list {
+        border-bottom: 1px solid #F1F1F1;
+    }
+
+    &__h4 {
+        font-size: 13px;
+        color: #222222;
+        text-transform: uppercase;
+        margin-top: 14px;
+        margin-bottom: 36px;
+        transition: 0.2s;
+
+        &:hover {
+            color: $color;
+        }
+    }
+
+    &__p {
+        font-size: 13px;
+        color: #575757;
+        font-weight: 600;
+    }
+
+    &__span {
+        font-size: 13px;
+        font-weight: 300;
+        color: #6f6e6e;
+        line-height: 20px;
+    }
+
+    &__descr {
+        margin-left: 20px;
+    }
+
+    &__price {
+        display: flex;
+        width: 600px;
+        justify-content: space-between;
+        padding-top: 65px;
+    }
+
+    &__quantity {
+        height: 30px;
+        width: 54px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        text-align: center;
+
+        &_margin {
+            margin-right: 116px;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+
+    }
+
+    &__list {
+        display: flex;
+
+    }
+
+    &__unite {
+        margin-right: 124px;
+    }
+
+    &__shipping {
+        margin-right: 127px;
+    }
+
+    &__subtotal {
+        margin-right: 132px;
+    }
+
+    &__action {
+        font-size: 16px;
+        color: #c0c0c0;
+        text-align: right;
+        text-transform: uppercase;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-bottom: 60px;
+    }
+
+    &__button {
+        height: 50px;
+        width: 235px;
+        border: 1px solid #eaeaea;
+        font-size: 14px;
+        font-weight: bold;
+        color: #4a4a4a;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s;
+
+        &:hover {
+            box-shadow: 0 0 5px #C4C4C4;
+        }
+
+
+        &_adress {
+            height: 35px;
+            width: 100px;
+            font-size: 11px;
+            font-weight: 900;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            border: 1px solid #eaeaea;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        &_coupon {
+            height: 35px;
+            width: 118px;
+            font-size: 11px;
+            font-weight: bold;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            border: none;
+            border: 1px solid #eaeaea;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        &_total{
+            
+            margin-top: 17px;
+    margin-left: 44px;
+            height: 50px;
+            width: 273px;
+            background: #EB6A7D;
+            font-family: 'Lato';
+            font-size: 16px;
+            font-weight: 900;
+            color: #ffffff;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+                transform: scale(1.02);
+                color: #E9E9E9;
+            }
+        }
+    }
+
+    &__contacts {
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__input {
+        height: 45px;
+        width: 355px;
+        border: 1px solid #eaeaea;
+        padding-left: 18px;
+        font-size: 13px;
+        font-weight: 300;
+        color: black;
+        margin-bottom: 20px;
+
+        &:focus {
+            outline: none;
+        }
+
+    }
+
+    .coupon__p {
+        margin-bottom: 24px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__total{
+        height: 230px;
+        width: 360px;
+        background: #F5F3F3;
+    }
+
+    .total {
+     
+        &__top {
+            border-bottom: 1px solid #E3E3E3;
+            text-align: right;
+            margin-right: 41px;
+            margin-left: 41px;
+            line-height: 25px;
+            padding-bottom: 22px;
+            padding-top: 40px;
+        }
+
+        &__sub {
+            font-size: 11px;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            font-weight: 600;
+
+            &_span {
+                margin-left: 15px;
+            }
+        }
+
+        &__grand {
+            font-size: 16px;
+            font-weight: bold;
+            color: #222222;
+            text-transform: uppercase;
+
+            &_span {
+                font-size: 16px;
+                font-weight: bold;
+                color: #f16d7f;
+                text-transform: uppercase;
+                margin-left: 10px;
+            }
+        }
+        
+    }
+
+}
