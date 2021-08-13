@@ -1,0 +1,36 @@
+.foto {
+    background-color: #F7F7F7;
+
+    &__product {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        background-color: #F7F7F7;
+    }
+
+    &__main {
+        display: block;
+    }
+
+
+    &__arrow {
+        margin-top: 350px;
+        display: block;
+        display: block;
+        font-size: 24px;
+        color: #ffffff;
+        transition: all 0.3s;
+        background-color: #D7D7D7;
+        height: 47px;
+        width: 47px;
+
+        &:hover .fas{
+            color: $color;
+        }
+    }
+    .fas{
+        margin-top: 12px;
+    margin-left: 15px;
+    }
+
+}

@@ -1,0 +1,21 @@
+.like{
+    &__h2{
+          font-size: 24px;
+    font-weight: 900;
+    color: #4d4d4d;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 72px;
+    }
+    &__a{
+        display: flex;
+        justify-content: center;
+        background-image: url(img/product/background.png);
+        height: 270px;
+    }
+}
+.product__img_like{
+    height: 270px;
+    width: 93px;
+}

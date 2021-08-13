@@ -1,0 +1,205 @@
+.descr {
+    padding-top: 70px;
+    height: 790px;
+    background-color: white;
+    width: 1141px;
+    position: relative;
+
+
+    &__general {
+        position: absolute;
+        height: 730px;
+        width: 1141px;
+        top: -57px;
+        background-color: white;
+        border: 1px solid #F0F0F0;
+        text-align: center;
+        padding-top: 70px;
+    }
+
+
+
+    &__h3 {
+        display: inline;
+        padding-bottom: 5px;
+        font-size: 14px;
+        font-weight: 900;
+        color: #f16d7f;
+
+        line-height: 24px;
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    &__border {
+        top: 66px;
+        position: absolute;
+        width: 63px;
+        padding-bottom: 28px;
+        border-bottom: 3px solid #ef5b70;
+        position: absolute;
+        margin-left: 537px;
+    }
+
+    &__h2 {
+        font-size: 18px;
+        font-weight: 900;
+        color: #4d4d4d;
+        text-align: center;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin-top: 18px;
+    }
+
+    &__p {
+        font-size: 14px;
+        font-weight: 300;
+        color: #5e5e5e;
+        text-align: center;
+        line-height: 24px;
+        width: 625px;
+        margin-top: 50px;
+        margin-left: 255px;
+    }
+
+    &__material {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        margin-right: 45px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #2f2f2f;
+        text-align: center;
+        line-height: 24px;
+
+        .material__left {
+            margin-right: 30px;
+        }
+
+        .material__span {
+            font-size: 14px;
+            font-weight: bold;
+            color: #b9b9b9;
+            text-align: center;
+            line-height: 24px;
+        }
+    }
+
+    &__price {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ef5b70;
+        text-align: center;
+        line-height: 24px;
+        margin-top: 37px;
+
+    }
+
+    &__bottom {
+        width: 642px;
+        display: block;
+        border-bottom: 1px solid #eaeaea;
+        margin-left: 250px;
+        margin-top: 43px;
+        margin-bottom: 63px;
+
+
+    }
+
+    &__choose {
+        display: flex;
+        justify-content: center;
+
+        .choose {
+
+            &__h4 {
+                font-size: 14px;
+                font-weight: 900;
+                color: #2f2f2f;
+            }
+
+            &__block {
+                position: relative;
+                margin-top: 16px;
+                height: 35px;
+                display: flex;
+                width: 144px;
+                background-color: #ffffff;
+                border: 1px solid #eaeaea;
+                font-family: 'Lato';
+                font-size: 13px;
+                color: #bcbcbc;
+                line-height: 12px;
+                padding-left: 14px;
+                padding-top: 11px;
+                cursor: pointer;
+            }
+
+            &__block,
+            &__right {
+                margin-right: 50px;
+            }
+
+            &__color {
+                width: 12px;
+                height: 12px;
+                background-color: #ef5b70;
+                margin-right: 15px;
+            }
+
+            &__a {
+                color: #bcbcbc;
+
+            }
+
+            &__quantity {
+                margin-top: 16px;
+                outline: none;
+                height: 35px;
+                display: flex;
+                width: 144px;
+                background-color: #ffffff;
+                border: 1px solid #eaeaea;
+                font-family: 'Lato';
+                font-size: 13px;
+                color: #bcbcbc;
+                line-height: 12px;
+                padding-left: 14px;
+            }
+        }
+    }
+
+    &__add {
+        display: flex;
+        height: 55px;
+        width: 537px;
+        border: 1px solid#F598A6;
+        background-color: white;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ef5b70;
+        text-align: center;
+        margin-left: 301px;
+        margin-top: 28px;
+        transition: all 0.3s;
+        padding-top: 17px;
+        &:hover{
+            box-shadow: 0 0 5px #ef5b70;
+        }
+    }
+
+    &__img {
+        height: 28px;
+        width: 28px;
+        margin-left: 207px;
+        margin-right: 15px;
+        margin-top: -5px;
+        
+
+    }
+}
+
+.fa-chevron-down {
+    position: absolute;
+    right: 11px;
+}
