@@ -172,6 +172,16 @@ ul li {
           justify-content: center;
 }
 
+.nav__li {
+  position: relative;
+}
+
+.nav__li:hover .drop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .nav__a {
   padding: 20px 20px 13px 20px;
   display: block;
@@ -186,6 +196,112 @@ ul li {
 
 .nav__a:hover {
   color: #f16d7f;
+}
+
+.drop {
+  width: 845px;
+  height: 330px;
+  margin-top: 5px;
+  background-color: white;
+  position: absolute;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  top: 45px;
+  border-radius: 5px;
+  display: none;
+  z-index: 1;
+}
+
+.drop::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 30px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-top: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+}
+
+.drop__h3 {
+  font-size: 14px;
+  color: #232323;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 8px;
+}
+
+.drop__link {
+  font-size: 14px;
+  color: #646464;
+  text-align: right;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.drop__link_foto {
+  background-image: url(/img/drop/foto1.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 118px;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  text-transform: uppercase;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-right: 10px;
+  text-align: left;
+  margin-top: 17px;
+}
+
+.drop__link:hover {
+  color: #f16d7f;
+}
+
+.drop__col {
+  width: 234px;
+}
+
+.drop__middle {
+  right: -380px;
+}
+
+.drop__middle::after {
+  left: auto;
+  right: 410px;
+}
+
+.drop__right {
+  right: 0px;
+}
+
+.drop__right::after {
+  left: auto;
+  right: 33px;
 }
 
 .promo {
