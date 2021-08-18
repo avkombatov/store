@@ -38,8 +38,7 @@
     background-color: white;
     position: absolute;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
+       justify-content: space-between;
     background: #fff;
     border: 1px solid #e8e8e8;
     top: 45px;
@@ -124,5 +123,13 @@
     &__right::after {
         left: auto;
         right: 33px;
+    }
+
+    &__browse {
+        left: 35px;
+        top: 30px;
+        position: absolute;
+        height: 510px;
+        width: 250px;
     }
 }
