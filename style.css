@@ -414,7 +414,7 @@ ul li {
 }
 
 .drop__link_foto {
-  background-image: url(/img/drop/foto1.png);
+  background-image: url(img/drop/foto1.png);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -474,7 +474,7 @@ ul li {
 .promo {
   height: 614px;
   background-color: #e8e8e8;
-  background-image: url(/img/index/promo/backgr.png);
+  background-image: url(img/index/promo/backgr.png);
   background-repeat: no-repeat;
   background-position: center -51px;
 }
@@ -522,7 +522,7 @@ ul li {
 
 .categories__men {
   position: relative;
-  background-image: url(/img/index/categories/men.png);
+  background-image: url(img/index/categories/men.png);
   width: 560px;
   height: 542px;
   display: block;
@@ -542,20 +542,20 @@ ul li {
 .categories__accesories {
   display: block;
   margin-top: 20px;
-  background-image: url(/img/index/categories/accesories.png);
+  background-image: url(img/index/categories/accesories.png);
   width: 560px;
   height: 261px;
 }
 
 .categories__women {
   display: block;
-  background-image: url(/img/index/categories/women.png);
+  background-image: url(img/index/categories/women.png);
   width: 560px;
   height: 261px;
 }
 
 .categories__kids {
-  background-image: url(/img/index/categories/kids.png);
+  background-image: url(img/index/categories/kids.png);
   margin-top: 20px;
   width: 560px;
   height: 542px;
@@ -744,7 +744,7 @@ ul li {
   position: relative;
   height: 530px;
   width: 767px;
-  background: url(/img/index/feature/darkening.png), url(/img/index/feature/backgraund.png);
+  background: url(img/index/feature/darkening.png), url(img/index/feature/backgraund.png);
   background-repeat: no-repeat;
 }
 
@@ -807,7 +807,7 @@ ul li {
 
 .subscribe {
   height: 440px;
-  background: url(/img/index/subscribe/effect.png), url(/img/index/subscribe/background.png);
+  background: url(img/index/subscribe/effect.png), url(img/index/subscribe/background.png);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
